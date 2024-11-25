@@ -11,7 +11,7 @@ var taxa = Number(taxaInput);
 var tempo = Number(tempoInput);
 
 if (isNaN(capital) || isNaN(taxa) || isNaN(tempo)) {
-    console.error("Entrada inválida. Todos os valores devem ser números.");
+    console.error("Entrada inválida.");
 } else {
     var montante = capital;
     for (var i = 0; i < tempo; i++) {
